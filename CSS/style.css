@@ -1,1 +1,64 @@
 /* Ini CSS */
+
+.result-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.celcius-container{
+    text-align: center;
+}
+
+textarea{
+    width: 220px;
+    height: 40px;
+    resize: none;
+    background-color: #f8f8f8;
+    border-radius: 16.5px;
+    border: 2px solid #ccc;
+    font-size: 32.8px;
+    font-family: revert-layer;
+}
+
+.button{
+    height: 41px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.green-color{
+    background-color: green;
+    color: white;
+}
+
+.red-color{
+    background-color: red;
+    color: white;
+}
+
+.blue-color{
+    background-color: blue;
+    color: white;
+}
+
+.subject-info {
+    font-size: 30px;
+    font-style: italic;
+    font-family: revert-layer;
+}
+.border {
+    width: 500px;
+    border: 20px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+.background-style{
+    background-color: rgba(35, 77, 133, 0.856);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right:20px;
+    width: 20%;
+  }
