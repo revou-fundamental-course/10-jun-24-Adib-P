@@ -3,6 +3,7 @@
 .result-container{
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .celcius-container{
@@ -10,7 +11,7 @@
 }
 
 textarea{
-    width: 220px;
+    width: 235px;
     height: 40px;
     resize: none;
     background-color: #f8f8f8;
@@ -48,17 +49,19 @@ textarea{
 }
 .border {
     width: 500px;
-    border: 20px solid green;
+    border: 20px solid red;
     padding: 50px;
-    margin: 20px;
+    margin-left: 361.5px;
 }
 .background-style{
     background-color: rgba(35, 77, 133, 0.856);
 }
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right:20px;
-    width: 20%;
-  }
+.button_convers{
+    width: 150px;
+}
+.button_reverse{
+    width: 150px;
+}
+.button_reset{ 
+    width: 150px;
+}
